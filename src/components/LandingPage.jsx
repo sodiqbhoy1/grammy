@@ -1,6 +1,6 @@
 // src/components/LandingPage.jsx
 import { useState } from 'react';
-import { useNavigate, useParams } from 'react-router';
+import { useNavigate, useParams } from 'react-router-dom';
 // Use site images from HomeComponent assets
 import CHAEYOUNG from '../assets/CHAEYOUNG.webp'
 import bobMarley from '../assets/bob-marley.webp'

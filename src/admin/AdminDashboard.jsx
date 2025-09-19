@@ -7,7 +7,7 @@ import {
   Routes,
   useLocation,
   useNavigate,
-} from "react-router";
+} from "react-router-dom";
 import Dashboard from "./Dashboard";
 import Rooms from "./Rooms";
 import Users from "./Users";

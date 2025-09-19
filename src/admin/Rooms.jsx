@@ -1,7 +1,7 @@
 // src/pages/Rooms.jsx
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const API_URL = import.meta.env.VITE_APP_API_URL;
 

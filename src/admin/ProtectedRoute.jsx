@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Navigate, useLocation } from 'react-router';
+import { Navigate, useLocation } from 'react-router-dom';
 import { isTokenExpired } from '../utils/auth';
 
 const ProtectedRoute = ({ children }) => {
