@@ -160,7 +160,7 @@ const HomeComponent = () => {
             {/* Middle card */}
             <div className="bg-white p-6">
               <div className="mb-6">
-                <img src={grammycard} alt="Explore the GRAMMY Awards" className="w-full h-72 md:h-96 lg:h-[28rem] object-cover object-center" />
+                <img src={grammycard} alt="Explore the GRAMMY Awards" className="w-full h-64 md:h-80 lg:h-[24rem] object-cover object-center" />
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">TOP MUSIC NEWS</h2>
               <p className="text-2xl text-gray-900 leading-relaxed">2026 GRAMMYs To Take Place Sunday, Feb. 1; Two New GRAMMY Categories Added: Best Traditional Country Album & Best Album Cover</p>
