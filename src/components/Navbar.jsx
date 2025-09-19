@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router';
 import logo from "../assets/logo.webp";
 import { FiMenu, FiSearch, FiBell, FiX } from "react-icons/fi";
 
@@ -22,15 +23,15 @@ export default function Navbar() {
 
       {/* Center: Links (hidden on mobile) */}
       <div className="hidden md:flex items-center gap-4 text-black text-sm font-medium">
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">2025 GRAMMYs Highlights</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">About</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Awards</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">News</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Videos</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Music Genre</a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Shop </a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> GRAMMY GO </a>
-        <a href="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Login </a>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">2025 GRAMMYs Highlights</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">About</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Awards</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">News</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Videos</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Music Genre</Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Shop </Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> GRAMMY GO </Link>
+        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Login </Link>
       </div>
 
       {/* Right: Icons */}
@@ -67,15 +68,15 @@ export default function Navbar() {
 
           {/* Dropdown links */}
           <div className="bg-white w-full flex flex-col gap-4 p-6 flex-1 shadow-lg">
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">GRAMMYs</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">RECORDING ACADEMY</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">DIVERSITY & INCLUSION</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">AWARDS PROCESS & UPDATES</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">ADVOCACY</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">MEMBERSHIP</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">MUSICARES</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">LATIN RECORDING ACADEMY</a>
-            <a href="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">GRAMMY MUSEUM</a>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">GRAMMYs</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">RECORDING ACADEMY</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">DIVERSITY & INCLUSION</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">AWARDS PROCESS & UPDATES</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">ADVOCACY</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">MEMBERSHIP</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">MUSICARES</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">LATIN RECORDING ACADEMY</Link>
+            <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">GRAMMY MUSEUM</Link>
           </div>
         </div>
       )}
