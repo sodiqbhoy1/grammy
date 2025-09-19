@@ -214,7 +214,7 @@ const ForgotPassword = () => {
           {/* Back to Admin Home */}
           <div className="text-center">
             <Link
-              to="/admin-home"
+              to="/admin/home"
               className="text-[#B69859] hover:text-[#A08849] text-sm font-medium hover:underline"
             >
               ← Back to Admin Portal

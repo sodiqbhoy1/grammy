@@ -45,7 +45,7 @@ const Navbar = () => {
                 <Link
                   to="/admin/home"
                   className={`px-3 py-2 text-sm font-medium transition-colors ${
-                    isActive('/admin-home')
+                    isActive('/admin/home')
                       ? 'text-[#B69859] border-b-2 border-[#B69859]'
                       : 'text-gray-700 hover:text-[#B69859] hover:border-b-2 hover:border-[#B69859]'
                   }`}
@@ -117,7 +117,7 @@ const Navbar = () => {
                   <Link
                     to="/admin/home"
                     className={`block px-3 py-2 text-base font-medium transition-colors ${
-                      isActive('/admin-home')
+                      isActive('/admin/home')
                         ? 'text-[#B69859]'
                         : 'text-gray-700 hover:text-[#B69859]'
                     }`}
