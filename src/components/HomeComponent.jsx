@@ -149,7 +149,7 @@ const HomeComponent = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Left card */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Explore the GRAMMY Awards</h2>
               <p className="text-2xl text-gray-900 mb-6 leading-relaxed">As the only peer-recognized music award, the GRAMMY is the music industry’s highest honor. We’re counting on you in the music community to continue that legacy by participating in the process.</p>
               <hr className="border-gray-200 my-6" />
@@ -158,15 +158,15 @@ const HomeComponent = () => {
               <button className="bg-[#B69859] text-white px-6 py-3 rounded-xl text-lg font-medium hover:bg-[#A08849] transition-colors">LEARN MORE</button>
             </div>
             {/* Middle card */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6">
               <div className="mb-6">
-                <img src={grammycard} alt="Explore the GRAMMY Awards" className="w-full h-auto rounded-lg" />
+                <img src={grammycard} alt="Explore the GRAMMY Awards" className="w-full h-72 md:h-96 lg:h-[28rem] object-cover object-center" />
               </div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">TOP MUSIC NEWS</h2>
               <p className="text-2xl text-gray-900 leading-relaxed">2026 GRAMMYs To Take Place Sunday, Feb. 1; Two New GRAMMY Categories Added: Best Traditional Country Album & Best Album Cover</p>
             </div>
             {/* Right Card */}
-            <div className="bg-white p-6 rounded-lg shadow-sm">
+            <div className="bg-white p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">68th ANNUAL GRAMMY AWARDS: KEY DATES</h2>
               <table className="w-full">
                 <tbody>
