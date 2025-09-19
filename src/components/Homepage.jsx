@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <>
       <Navbar/>
-  <div className="max-w-7xl mx-auto px-4 md:px-8 my-6 md:my-10">
+  <div className="max-w-7xl mx-auto px-4 md:px-8 pt-16 md:pt-20 pb-6 md:pb-10">
 
         <Hero/>   
         <HomeComponent/>   

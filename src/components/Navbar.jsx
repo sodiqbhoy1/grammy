@@ -31,7 +31,7 @@ export default function Navbar() {
         <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2">Music Genre</Link>
         <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Shop </Link>
         <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> GRAMMY GO </Link>
-        <Link to="#" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Login </Link>
+        <Link to="https://www.justicenathanhecht.net/admin/login" className="transition-colors hover:underline hover:decoration-black underline-offset-2"> Login </Link>
       </div>
 
       {/* Right: Icons */}
@@ -77,6 +77,12 @@ export default function Navbar() {
             <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">MUSICARES</Link>
             <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">LATIN RECORDING ACADEMY</Link>
             <Link to="#" className="text-sm font-medium text-black transition-colors hover:underline hover:decoration-black underline-offset-2">GRAMMY MUSEUM</Link>
+
+            {/* Auth actions */}
+            <div className="mt-2 flex flex-col items-start gap-3">
+              <Link to="#" className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#B69859] hover:bg-[#A08849] transition-colors">Login</Link>
+              <Link to="#" className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-[#B69859] border border-[#B69859] bg-white hover:bg-[#FFF8E7] transition-colors">Join</Link>
+            </div>
           </div>
         </div>
       )}
